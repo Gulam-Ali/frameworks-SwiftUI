@@ -11,6 +11,11 @@
 		EAA154CB2C33080100CAD73A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA154CA2C33080100CAD73A /* ContentView.swift */; };
 		EAA154CD2C33080300CAD73A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAA154CC2C33080300CAD73A /* Assets.xcassets */; };
 		EAA154D02C33080300CAD73A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAA154CF2C33080300CAD73A /* Preview Assets.xcassets */; };
+		EAA154D72C33381200CAD73A /* frameworkDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA154D62C33381200CAD73A /* frameworkDataModel.swift */; };
+		EAA154D92C333D8200CAD73A /* frameworkCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA154D82C333D8200CAD73A /* frameworkCellView.swift */; };
+		EADEAD172C341A7500360C0F /* FrameworkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADEAD162C341A7500360C0F /* FrameworkDetailView.swift */; };
+		EADEAD192C34334600360C0F /* frameworkGridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADEAD182C34334600360C0F /* frameworkGridViewModel.swift */; };
+		EADEAD1B2C34772E00360C0F /* safariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADEAD1A2C34772E00360C0F /* safariView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		EAA154CA2C33080100CAD73A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EAA154CC2C33080300CAD73A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EAA154CF2C33080300CAD73A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EAA154D62C33381200CAD73A /* frameworkDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = frameworkDataModel.swift; sourceTree = "<group>"; };
+		EAA154D82C333D8200CAD73A /* frameworkCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = frameworkCellView.swift; sourceTree = "<group>"; };
+		EADEAD162C341A7500360C0F /* FrameworkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDetailView.swift; sourceTree = "<group>"; };
+		EADEAD182C34334600360C0F /* frameworkGridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = frameworkGridViewModel.swift; sourceTree = "<group>"; };
+		EADEAD1A2C34772E00360C0F /* safariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = safariView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +65,11 @@
 				EAA154CA2C33080100CAD73A /* ContentView.swift */,
 				EAA154CC2C33080300CAD73A /* Assets.xcassets */,
 				EAA154CE2C33080300CAD73A /* Preview Content */,
+				EAA154D62C33381200CAD73A /* frameworkDataModel.swift */,
+				EAA154D82C333D8200CAD73A /* frameworkCellView.swift */,
+				EADEAD162C341A7500360C0F /* FrameworkDetailView.swift */,
+				EADEAD182C34334600360C0F /* frameworkGridViewModel.swift */,
+				EADEAD1A2C34772E00360C0F /* safariView.swift */,
 			);
 			path = "Frameworks-SwiftUI";
 			sourceTree = "<group>";
@@ -138,7 +153,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAA154CB2C33080100CAD73A /* ContentView.swift in Sources */,
+				EADEAD172C341A7500360C0F /* FrameworkDetailView.swift in Sources */,
+				EAA154D72C33381200CAD73A /* frameworkDataModel.swift in Sources */,
+				EADEAD1B2C34772E00360C0F /* safariView.swift in Sources */,
 				EAA154C92C33080100CAD73A /* Frameworks_SwiftUIApp.swift in Sources */,
+				EAA154D92C333D8200CAD73A /* frameworkCellView.swift in Sources */,
+				EADEAD192C34334600360C0F /* frameworkGridViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
